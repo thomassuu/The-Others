@@ -1,4 +1,6 @@
 [
 null,
-{"id":1,"expanded":false,"name":"THOMAS","order":1,"parentId":0,"scrollX":832,"scrollY":640}
+{"id":1,"expanded":true,"name":"THOMAS","order":1,"parentId":0,"scrollX":416.44444444444446,"scrollY":391.1111111111111},
+{"id":2,"expanded":true,"name":"IAN","order":2,"parentId":0,"scrollX":399.55555555555554,"scrollY":391.1111111111111},
+{"id":3,"expanded":false,"name":"Intro Cutscene","order":3,"parentId":2,"scrollX":399.55555555555554,"scrollY":391.1111111111111}
 ]
