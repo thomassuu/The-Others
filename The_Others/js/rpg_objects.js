@@ -7392,6 +7392,7 @@ Game_Character.prototype.searchLimit = function() {
 // The game object class for the player. It contains event starting
 // determinants and map scrolling functions.
 
+const FLASHING_SWITCH_ID = 2
 function Game_Player() {
     this.initialize.apply(this, arguments);
 }
@@ -7402,6 +7403,15 @@ Game_Player.prototype.constructor = Game_Player;
 Game_Player.prototype.initialize = function() {
     Game_Character.prototype.initialize.call(this);
     this.setTransparent($dataSystem.optTransparent);
+};
+
+Game_Player.prototype.customAction = function() {
+    if (Input.isPressed('z') || Input.isLongPressed('z')) {
+        $gameSwitches.setValue(FLASHING_SWITCH_ID, true);
+    } else {
+        $gameSwitches.setValue(FLASHING_SWITCH_ID, false);
+        this.setLight("torch"); // replace "torch" with name of desired value
+    }
 };
 
 Game_Player.prototype.initMembers = function() {
@@ -7675,6 +7685,7 @@ Game_Player.prototype.update = function(sceneActive) {
     if (!this.isMoving()) {
         this.updateNonmoving(wasMoving);
     }
+    this.customAction();
     this._followers.update();
 };
 
