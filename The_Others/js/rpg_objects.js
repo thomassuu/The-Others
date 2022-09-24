@@ -7406,11 +7406,8 @@ Game_Player.prototype.initialize = function() {
 };
 
 Game_Player.prototype.customAction = function() {
-    if (Input.isPressed('z') || Input.isLongPressed('z')) {
+    if (Input.isTriggered('z')) {
         $gameSwitches.setValue(FLASHING_SWITCH_ID, true);
-    } else {
-        $gameSwitches.setValue(FLASHING_SWITCH_ID, false);
-        this.setLight("torch"); // replace "torch" with name of desired value
     }
 };
 
