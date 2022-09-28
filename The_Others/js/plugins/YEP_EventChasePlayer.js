@@ -210,6 +210,15 @@ Game_Event.prototype.clearChaseSettings = function() {
   this._startLocationX = this.x;
   this._startLocationY = this.y;
   this._startLocationDir = this._direction;
+  // this._flashedMoveRoute = {
+  //   list:[{
+  //     code:Game_Character.ROUTE_MOVE_BACKWARD,
+  //     parameterss: []
+  //   }],
+  //   repeat: false,
+  //   skippable: false,
+  //   wait: false
+  // } 
 };
 
 Yanfly.ECP.Game_Event_updateSelfMovement =
@@ -429,6 +438,30 @@ Game_Event.prototype.updateMoveReturnAfter = function() {
       this._direction = this._startLocationDir;
     }
 };
+
+// Used for stalkers
+const FLASH_RADIUS = 6;
+const EXISTING_MONSTERS_EVENTID = 4;
+const TORCH_RADIUS = 2;
+// Game_Event.prototype.reactToFlash = function() {
+//   console.log($gameVariables.value(EXISTING_MONSTERS_EVENTID));
+//   // if (!$gameSwitches.value(FLASHING_SWITCH_ID)) return; // if not flashing
+//   if (this.getDistFromPlayer() > FLASH_RADIUS) return; // if dist is outside flash_radius
+//   // $gameVariables.setValue(EXISTING_MONSTERS_EVENTID, $gameVariables.value(EXISTING_MONSTERS_EVENTID) - 1);
+//   let dis_opacity = 160;
+//   while (dis_opacity >= 0) {
+//     $gameMap.event(this._eventId).setOpacity(dis_opacity);
+//     $gameMap.event(this._eventId).forceMoveRoute(this._flashedMoveRoute);
+//     dis_opacity -= 40;
+//     this._interpreter.wait(5);
+//   }
+//   $gameSelfSwitches.value([$gameMap.mapId(), this._eventId, 'A'], false);
+//   $gameSelfSwitches.value([$gameMap.mapId(), this._eventId, 'B'], true);
+// }
+
+Game_Event.prototype.getDistFromPlayer = function() {
+  return  Math.sqrt(Math.pow(this.deltaXFrom($gamePlayer.x), 2) + Math.pow(this.deltaYFrom($gamePlayer.y),2));
+}
 
 //=============================================================================
 // End of File
