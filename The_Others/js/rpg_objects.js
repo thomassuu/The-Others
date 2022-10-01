@@ -5875,7 +5875,6 @@ Game_Map.prototype.scrollLeft = function(distance) {
         this._parallaxX += this._displayX - lastX;
     }
 };
-
 Game_Map.prototype.scrollRight = function(distance) {
     if (this.isLoopHorizontal()) {
         this._displayX += distance;

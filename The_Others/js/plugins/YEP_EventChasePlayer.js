@@ -442,7 +442,7 @@ Game_Event.prototype.updateMoveReturnAfter = function() {
 // Used for stalkers
 const FLASH_RADIUS = 6;
 const EXISTING_MONSTERS_EVENTID = 4;
-const TORCH_RADIUS = 2;
+const TORCH_RADIUS = 3;
 // Game_Event.prototype.reactToFlash = function() {
 //   console.log($gameVariables.value(EXISTING_MONSTERS_EVENTID));
 //   // if (!$gameSwitches.value(FLASHING_SWITCH_ID)) return; // if not flashing
