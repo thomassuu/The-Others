@@ -443,6 +443,7 @@ Game_Event.prototype.updateMoveReturnAfter = function() {
 const FLASH_RADIUS = 6;
 const EXISTING_MONSTERS_EVENTID = 4;
 const TORCH_RADIUS = 3;
+const SOUND_RADIUS = 12;
 // Game_Event.prototype.reactToFlash = function() {
 //   console.log($gameVariables.value(EXISTING_MONSTERS_EVENTID));
 //   // if (!$gameSwitches.value(FLASHING_SWITCH_ID)) return; // if not flashing
@@ -459,8 +460,8 @@ const TORCH_RADIUS = 3;
 //   $gameSelfSwitches.value([$gameMap.mapId(), this._eventId, 'B'], true);
 // }
 
-Game_Event.prototype.getDistFromPlayer = function() {
-  return  Math.sqrt(Math.pow(this.deltaXFrom($gamePlayer.x), 2) + Math.pow(this.deltaYFrom($gamePlayer.y),2));
+Game_Event.prototype.getDistFrom = function(targetXLoc, targetYLoc) {
+  return Math.sqrt(Math.pow(this.deltaXFrom(targetXLoc), 2) + Math.pow(this.deltaYFrom(targetYLoc), 2));
 }
 
 //=============================================================================
