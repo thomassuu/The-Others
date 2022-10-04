@@ -1,7 +1,7 @@
 [
 null,
-{"id":1,"expanded":true,"name":"THOMAS","order":1,"parentId":0,"scrollX":1092,"scrollY":597.3333333333334},
-{"id":2,"expanded":true,"name":"IAN","order":2,"parentId":0,"scrollX":1092,"scrollY":597.3333333333334},
+{"id":1,"expanded":true,"name":"THOMAS","order":1,"parentId":0,"scrollX":819,"scrollY":481},
+{"id":2,"expanded":true,"name":"IAN","order":2,"parentId":0,"scrollX":819,"scrollY":481},
 {"id":3,"expanded":false,"name":"Intro Cutscene","order":3,"parentId":2,"scrollX":1092,"scrollY":597.3333333333334},
 {"id":4,"expanded":false,"name":"DEE","order":4,"parentId":0,"scrollX":1092,"scrollY":597.3333333333334}
 ]
