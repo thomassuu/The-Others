@@ -5,6 +5,6 @@ null,
 {"id":3,"expanded":false,"name":"Intro Cutscene","order":3,"parentId":2,"scrollX":412,"scrollY":468.5},
 {"id":4,"expanded":false,"name":"DEE","order":4,"parentId":0,"scrollX":541.5,"scrollY":373},
 {"id":5,"expanded":true,"name":"Forest","order":5,"parentId":4,"scrollX":808,"scrollY":456.5},
-{"id":6,"expanded":false,"name":"TestMap","order":6,"parentId":0,"scrollX":808,"scrollY":456.5},
-{"id":7,"expanded":false,"name":"SewerEntrance","order":7,"parentId":0,"scrollX":808,"scrollY":456.5}
+null,
+{"id":7,"expanded":false,"name":"SewerEntrance","order":6,"parentId":0,"scrollX":808,"scrollY":456.5}
 ]
