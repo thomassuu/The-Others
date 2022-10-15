@@ -1,10 +1,10 @@
 [
 null,
 {"id":1,"expanded":true,"name":"THOMAS","order":1,"parentId":0,"scrollX":808,"scrollY":456.5},
-{"id":2,"expanded":false,"name":"IAN","order":2,"parentId":0,"scrollX":541.5,"scrollY":373},
+{"id":2,"expanded":false,"name":"IAN","order":2,"parentId":0,"scrollX":819,"scrollY":461},
 {"id":3,"expanded":false,"name":"Intro Cutscene","order":3,"parentId":2,"scrollX":412,"scrollY":468.5},
 {"id":4,"expanded":false,"name":"DEE","order":4,"parentId":0,"scrollX":819,"scrollY":461},
 {"id":5,"expanded":true,"name":"Forest","order":5,"parentId":4,"scrollX":808,"scrollY":456.5},
-null,
+{"id":6,"expanded":true,"name":"Sewer01","order":7,"parentId":0,"scrollX":819,"scrollY":461},
 {"id":7,"expanded":false,"name":"TestSewerEntrance","order":6,"parentId":0,"scrollX":819,"scrollY":461}
 ]
