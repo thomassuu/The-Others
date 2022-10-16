@@ -846,7 +846,7 @@ Game_CharacterBase.prototype.moveToPoint = function(x, y, collision) {
   y = Math.round(y);
   if (collision) $gameTemp._moveAllowPlayerCollision = true;
   var direction = this.findDirectionTo(x, y);
-  if (collision) $gameTemp._moveAllowPlayerCollision = false;
+  if (!collision) $gameTemp._moveAllowPlayerCollision = false;
   if (direction > 0) this.moveStraight(direction);
   if (this.x !== x || this.y !== y) this._moveRouteIndex -= 1;
   this.setMovementSuccess(true);
