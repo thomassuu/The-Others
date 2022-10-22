@@ -19,6 +19,6 @@ null,
 {"id":17,"expanded":false,"name":"ForestPath2","order":11,"parentId":7,"scrollX":1150,"scrollY":953},
 {"id":18,"expanded":false,"name":"CampsiteDeath","order":12,"parentId":7,"scrollX":1150,"scrollY":953},
 {"id":19,"expanded":true,"name":"Power","order":20,"parentId":15,"scrollX":1150,"scrollY":953},
-{"id":20,"expanded":false,"name":"Sewer_06","order":21,"parentId":11,"scrollX":1150,"scrollY":953},
+{"id":20,"expanded":false,"name":"Sewer_06","order":21,"parentId":11,"scrollX":816,"scrollY":800},
 {"id":21,"expanded":false,"name":"SetupScene","order":13,"parentId":7,"scrollX":1150,"scrollY":953}
 ]
