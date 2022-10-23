@@ -14,11 +14,11 @@ null,
 {"id":12,"expanded":false,"name":"Sewer_02","order":16,"parentId":11,"scrollX":1092,"scrollY":614.6666666666666},
 {"id":13,"expanded":true,"name":"Sewer_03","order":17,"parentId":11,"scrollX":985.7142857142857,"scrollY":816.8571428571428},
 {"id":14,"expanded":false,"name":"Sewer_04","order":18,"parentId":11,"scrollX":985.7142857142857,"scrollY":803.1428571428571},
-{"id":15,"expanded":true,"name":"Sewer_05","order":19,"parentId":11,"scrollX":985.7142857142857,"scrollY":816.8571428571428},
+{"id":15,"expanded":true,"name":"Sewer_05","order":19,"parentId":11,"scrollX":1081.3333333333333,"scrollY":810.6666666666666},
 {"id":16,"expanded":false,"name":"ForestJunction","order":10,"parentId":7,"scrollX":985.7142857142857,"scrollY":816.8571428571428},
 {"id":17,"expanded":false,"name":"ForestPath2","order":11,"parentId":7,"scrollX":985.7142857142857,"scrollY":816.8571428571428},
 {"id":18,"expanded":false,"name":"CampsiteDeath","order":12,"parentId":7,"scrollX":766.6666666666666,"scrollY":635.3333333333334},
-{"id":19,"expanded":true,"name":"Power","order":20,"parentId":15,"scrollX":1092,"scrollY":614.6666666666666},
+{"id":19,"expanded":true,"name":"Power","order":20,"parentId":15,"scrollX":1092,"scrollY":629.3333333333334},
 {"id":20,"expanded":false,"name":"Sewer_06","order":21,"parentId":11,"scrollX":1081.3333333333333,"scrollY":810.6666666666666},
-{"id":21,"expanded":false,"name":"SetupScene","order":13,"parentId":7,"scrollX":1092,"scrollY":614.6666666666666}
+{"id":21,"expanded":false,"name":"SetupScene","order":13,"parentId":7,"scrollX":1092,"scrollY":629.3333333333334}
 ]
