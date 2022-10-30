@@ -1,7 +1,7 @@
 [
 null,
 {"id":1,"expanded":true,"name":"THOMAS","order":1,"parentId":0,"scrollX":1404,"scrollY":824.5714285714286},
-{"id":2,"expanded":true,"name":"IAN","order":2,"parentId":0,"scrollX":1092,"scrollY":614.6666666666666},
+{"id":2,"expanded":true,"name":"IAN","order":2,"parentId":0,"scrollX":1404,"scrollY":824.5714285714286},
 {"id":3,"expanded":false,"name":"Intro Cutscene","order":3,"parentId":2,"scrollX":819,"scrollY":461},
 {"id":4,"expanded":false,"name":"DEE","order":4,"parentId":0,"scrollX":819,"scrollY":461},
 {"id":5,"expanded":true,"name":"Fo","order":5,"parentId":4,"scrollX":819,"scrollY":461},
@@ -22,5 +22,5 @@ null,
 {"id":20,"expanded":false,"name":"Sewer_06","order":23,"parentId":11,"scrollX":811,"scrollY":825},
 {"id":21,"expanded":false,"name":"SetupScene","order":13,"parentId":7,"scrollX":1404,"scrollY":824.5714285714286},
 {"id":22,"expanded":true,"name":"Maintenance_01","order":21,"parentId":15,"scrollX":819,"scrollY":461},
-{"id":23,"expanded":false,"name":"Maintenance_02","order":22,"parentId":22,"scrollX":819,"scrollY":461}
+{"id":23,"expanded":false,"name":"Maintenance_02","order":22,"parentId":22,"scrollX":1404,"scrollY":824.5714285714286}
 ]
