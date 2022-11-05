@@ -26,6 +26,6 @@ null,
 {"id":24,"expanded":false,"name":"Sewer_07","order":26,"parentId":11,"scrollX":1404,"scrollY":824.5714285714286},
 {"id":25,"expanded":true,"name":"City","order":27,"parentId":0,"scrollX":1404,"scrollY":824.5714285714286},
 {"id":26,"expanded":false,"name":"Maintenance_03","order":23,"parentId":23,"scrollX":893.4545454545455,"scrollY":524.7272727272727},
-{"id":27,"expanded":false,"name":"Medbay","order":24,"parentId":15,"scrollX":893.4545454545455,"scrollY":524.7272727272727},
+{"id":27,"expanded":false,"name":"Medbay","order":24,"parentId":15,"scrollX":811,"scrollY":512},
 {"id":28,"expanded":false,"name":"GeneralStore","order":28,"parentId":25,"scrollX":540.6666666666666,"scrollY":351.3333333333333}
 ]
