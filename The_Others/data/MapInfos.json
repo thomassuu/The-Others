@@ -1,7 +1,7 @@
 [
 null,
-{"id":1,"expanded":true,"name":"THOMAS","order":1,"parentId":0,"scrollX":982.8,"scrollY":577.1999999999999},
-{"id":2,"expanded":false,"name":"IAN","order":2,"parentId":0,"scrollX":982.8,"scrollY":577.1999999999999},
+{"id":1,"expanded":true,"name":"THOMAS","order":1,"parentId":0,"scrollX":819,"scrollY":481},
+{"id":2,"expanded":false,"name":"IAN","order":2,"parentId":0,"scrollX":819,"scrollY":481},
 {"id":3,"expanded":false,"name":"Intro Cutscene","order":3,"parentId":2,"scrollX":1404,"scrollY":824.5714285714286},
 {"id":4,"expanded":false,"name":"DEE","order":4,"parentId":0,"scrollX":819,"scrollY":448},
 {"id":5,"expanded":true,"name":"Fo","order":5,"parentId":4,"scrollX":819,"scrollY":461},
@@ -28,5 +28,5 @@ null,
 {"id":26,"expanded":false,"name":"Maintenance_03","order":23,"parentId":23,"scrollX":819,"scrollY":481},
 {"id":27,"expanded":false,"name":"Medbay","order":24,"parentId":15,"scrollX":819,"scrollY":481},
 {"id":28,"expanded":false,"name":"GeneralStore","order":28,"parentId":25,"scrollX":819,"scrollY":481},
-{"id":29,"expanded":false,"name":"FinalBoss","order":29,"parentId":0,"scrollX":819,"scrollY":461}
+{"id":29,"expanded":false,"name":"FinalBoss","order":29,"parentId":0,"scrollX":819,"scrollY":481}
 ]
