@@ -7406,7 +7406,7 @@ Game_Player.prototype.initialize = function() {
 };
 
 Game_Player.prototype.customAction = function() {
-    if (Input.isTriggered('z')) {
+    if (Input.isTriggered('z') && !$gameVariables.value(FLASHING_SWITCH_ID)) {
         $gameSwitches.setValue(FLASHING_SWITCH_ID, true);
     }
 };
