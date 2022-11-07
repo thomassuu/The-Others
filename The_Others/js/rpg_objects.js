@@ -7393,7 +7393,7 @@ Game_Character.prototype.searchLimit = function() {
 // determinants and map scrolling functions.
 
 const FLASHING_SWITCH_ID = 2
-const FLASHING_DELAY = 3 // seconds
+const FLASHING_DELAY = 2 // seconds
 function Game_Player() {
     this.initialize.apply(this, arguments);
 }
