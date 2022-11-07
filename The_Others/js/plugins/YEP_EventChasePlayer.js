@@ -236,11 +236,13 @@ Yanfly.ECP.Game_Event_update = Game_Event.prototype.update;
 var TIMER_CALLED = false;
 Game_Event.prototype.updateFaker = function () {
   console.log("faker called");
+  let returnToNormalState = function () {
+    $gameSelfSwitches.setValue([$gameMap._mapId, 5, 'C'], false); // 5 is faker eventID
+    $gameSelfSwitches.setValue([$gameMap._mapId, 5, 'A'], false);
+    TIMER_CALLED = false;
+  }
   if (!TIMER_CALLED) {
-    setTimeout(function() {
-      $gameSelfSwitches.setValue([$gameMap._mapId, 5, 'C'],false); // 5 is faker eventID
-      TIMER_CALLED = false;
-    }, 2000); // ms
+    setTimeout(returnToNormalState, 2500); // ms
     TIMER_CALLED = true;
   }
 }
