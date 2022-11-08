@@ -30,5 +30,5 @@ null,
 {"id":28,"expanded":false,"name":"GeneralStore","order":28,"parentId":25,"scrollX":819,"scrollY":481},
 null,
 {"id":30,"expanded":true,"name":"CampsiteReturn","order":30,"parentId":0,"scrollX":819,"scrollY":461},
-{"id":31,"expanded":false,"name":"FinalBoss","order":29,"parentId":0,"scrollX":982.8,"scrollY":537.6}
+{"id":31,"expanded":false,"name":"FinalBoss","order":29,"parentId":0,"scrollX":819,"scrollY":461}
 ]
