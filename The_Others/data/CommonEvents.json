@@ -27,7 +27,7 @@ null,
 {"id":25,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
 {"id":26,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
 {"id":27,"list":[{"code":250,"indent":0,"parameters":[{"name":"Fire1","volume":90,"pitch":100,"pan":0}]},{"code":0,"indent":0,"parameters":[]}],"name":"FakerFireWallFX","switchId":1,"trigger":0},
-{"id":28,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":28,"list":[{"code":201,"indent":0,"parameters":[0,31,10,10,0,0]},{"code":122,"indent":0,"parameters":[23,23,0,0,1]},{"code":117,"indent":0,"parameters":[22]},{"code":0,"indent":0,"parameters":[]}],"name":"TransferToFakerBoss","switchId":1,"trigger":0},
 {"id":29,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
 {"id":30,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
 ]
