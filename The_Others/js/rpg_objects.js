@@ -7393,6 +7393,7 @@ Game_Character.prototype.searchLimit = function() {
 // determinants and map scrolling functions.
 
 const FLASHING_SWITCH_ID = 2
+const FLASHING_DELAY = 2 // seconds
 function Game_Player() {
     this.initialize.apply(this, arguments);
 }
@@ -7406,7 +7407,12 @@ Game_Player.prototype.initialize = function() {
 };
 
 Game_Player.prototype.customAction = function() {
+    let currTime = new Date();
+    let timeDiff = null;
+    timeDiff = this._lastFlashTime ? Math.round((currTime - this._lastFlashTime) / 1000) : FLASHING_DELAY;
     if (Input.isTriggered('z')) {
+        if ($gameSwitches.value(FLASHING_SWITCH_ID) || timeDiff < FLASHING_DELAY) return;
+        this._lastFlashTime = new Date();
         $gameSwitches.setValue(FLASHING_SWITCH_ID, true);
     }
 };
@@ -7426,6 +7432,7 @@ Game_Player.prototype.initMembers = function() {
     this._fadeType = 0;
     this._followers = new Game_Followers();
     this._encounterCount = 0;
+    this._lastFlashTime = null;
 };
 
 Game_Player.prototype.clearTransferInfo = function() {

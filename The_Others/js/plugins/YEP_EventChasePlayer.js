@@ -210,6 +210,7 @@ Game_Event.prototype.clearChaseSettings = function() {
   this._startLocationX = this.x;
   this._startLocationY = this.y;
   this._startLocationDir = this._direction;
+  this._isFaker = false;
   // this._flashedMoveRoute = {
   //   list:[{
   //     code:Game_Character.ROUTE_MOVE_BACKWARD,
@@ -231,10 +232,26 @@ Game_Event.prototype.updateSelfMovement = function() {
 };
 
 Yanfly.ECP.Game_Event_update = Game_Event.prototype.update;
+
+var TIMER_CALLED = false;
+Game_Event.prototype.updateFaker = function () {
+  console.log("faker called");
+  let returnToNormalState = function () {
+    $gameSelfSwitches.setValue([$gameMap._mapId, 5, 'C'], false); // 5 is faker eventID
+    $gameSelfSwitches.setValue([$gameMap._mapId, 5, 'A'], false);
+    TIMER_CALLED = false;
+  }
+  if (!TIMER_CALLED) {
+    setTimeout(returnToNormalState, 2500); // ms
+    TIMER_CALLED = true;
+  }
+}
 Game_Event.prototype.update = function() {
     Yanfly.ECP.Game_Event_update.call(this);
     this.updateAlert();
     this.updateReturnPhase();
+    if (!this._isFaker) return;
+    this.updateFaker();
 };
 
 Game_Event.prototype.canSeePlayer = function() {
