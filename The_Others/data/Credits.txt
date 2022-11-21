@@ -1,0 +1,35 @@
+<block:-1,-1.8,100,100,offbot,center,JumpscareFaker>
+\{CREDITS
+
+\c[2]Executive Producer
+Dave Goel
+
+\c[2]Producer
+Danielle Kropinak
+
+\c[2]Lead Designer
+Max Petryk
+
+\c[2]Programmer
+Danielle Kropinak
+Ian Harding
+Thomas Huynh
+
+\c[2]Sound Designer
+Riley Ward
+
+\c[2]Artist
+Keon Li
+
+\c[2]Writer
+Max Petryk
+
+\c[2]Special Thanks
+Khas
+MushroomCake28
+DKPlugins
+Yanfly
+Karberus
+CT_Bolt
+Galv
+</block>
